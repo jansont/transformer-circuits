@@ -8,6 +8,8 @@ packages = [{include = "transformer_circuits"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+easy-transformer = {git = "https://github.com/redwoodresearch/Easy-Transformer.git"}
+transformer-lens = {git = "https://github.com/neelnanda-io/TransformerLens"}
 
 
 [build-system]
