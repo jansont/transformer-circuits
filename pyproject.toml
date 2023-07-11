@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "transformer-circuits"
+version = "0.1.0"
+description = "Project exploring transformer circuits, notably circuits involved during LoRA finetuning."
+authors = ["Theo Janson <tj@sfjtechnologies.com>"]
+readme = "README.md"
+packages = [{include = "transformer_circuits"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
