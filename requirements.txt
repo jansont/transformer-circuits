@@ -1,0 +1,15 @@
+torch>1.9.0
+ipython
+einops
+numpy
+matplotlib
+circuitsvis
+plotly==5.15.0
+fancy-einsum
+jaxtyping
+transformers
+datasets
+dataclasses
+git+https://github.com/neelnanda-io/TransformerLens
+typeguard==2.13.3
+typing-extensions
