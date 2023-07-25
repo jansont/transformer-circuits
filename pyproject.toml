@@ -17,6 +17,10 @@ plotly = "^5.15.0"
 jaxtyping = "^0.2.20"
 transformers = "^4.30.2"
 datasets = "^2.13.1"
+bitsandbytes = "^0.40.2"
+loralib = "^0.1.1"
+accelerate = "^0.21.0"
+peft = {git = "https://github.com/huggingface/peft.git"}
 
 
 [build-system]
