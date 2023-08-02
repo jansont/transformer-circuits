@@ -1,0 +1,13 @@
+sentence_1,subject_1,object_1,counter_factual_1,sentence_2,subject_2,object_2,counter_factual_2
+{subject} is the capital of {obj},Paris,France,"['Italy', 'Germany', 'Canada', 'USA', 'China']",The capital of {subject} is {obj},France,Paris,"['Rome', 'Amsterdam', 'Ottawa', 'London', 'Berlin']"
+{subject} is the capital of {obj},Rome,Italy,"['France', 'Germany', 'Canada', 'USA', 'China']",The capital of {subject} is {obj},Italy,Rome,"['Paris', 'Amsterdam', 'Ottawa', 'London', 'Berlin']"
+{subject} is the capital of {obj},Ottawa,Canada,"['Italy', 'Germany', 'France', 'USA', 'China']",The capital of {subject} is {obj},Canada,Ottawa,"['Rome', 'Amsterdam', 'Paris', 'London', 'Berlin']"
+{subject} live in the {obj},Dolphins,ocean,"['forest', 'desert', 'jungle', 'lake', 'city']",The {subject} is home to {obj},ocean,dolphins,"['rats', 'bears', 'cats', 'tigers', 'wolves']"
+{subject} live in the {obj},Tigers,jungle,"['river', 'desert', 'ocean', 'lake', 'city']",The {subject} is home to {obj},jungle,tigers,"['dolphins', 'whales', 'fish', 'sharks', 'camels']"
+{subject} live in the {obj},Camels,desert,"['river', 'forest', 'ocean', 'lake', 'city']",The {subject} is home to {obj},desert,camels,"['dolphins', 'tigers', 'fish', 'sharks', 'bears']"
+{subject} is the founder of {obj},Bill Gates,Microsoft,"['Apple', 'Amazon', 'Google', 'Facebook', 'Walmart']",{subject} was founded by {obj},Microsoft,Bill,"['Steve', 'John', 'Elon', 'George', 'Jeff']"
+The {subject} is the longest river in {obj},Nile,Africa,"['Asia', 'Europe', 'France', 'Russia', 'America']",The longest {subject} is the {obj},river in Africa,Nile,"['Amazon', 'Mississippi', 'Yangtze', 'Danube', 'Ganges']"
+The {subject} is the longest river in {obj},Yangtze,Asia,"['Africa', 'Europe', 'France', 'Russia', 'America']",The longest {subject} is the {obj},river in Asia,Yangtze,"['Amazon', 'Mississippi', 'Nile', 'Danube', 'Ganges']"
+{subject} is the language spoken in {obj},English,England,"['France', 'Germany', 'Italy', 'Spain', 'China']",People from {subject} speak {obj},England,English,"['French', 'German', 'Italian', 'Portgual', 'Chinese']"
+{subject} is the language spoken in {obj},French,France,"['England', 'Germany', 'Italy', 'Spain', 'China']",People from {subject} speak {obj},France,French,"['English', 'German', 'Italian', 'Portgual', 'Chinese']"
+{subject} is the language spoken in {obj},German,Germany,"['France', 'England', 'Italy', 'Spain', 'China']",People from {subject} speak {obj},Germany,German,"['French', 'English', 'Italian', 'Portgual', 'Chinese']"
