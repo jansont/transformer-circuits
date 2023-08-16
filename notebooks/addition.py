@@ -1,32 +1,4 @@
-# %%
-import os
-os.environ["TRANSFORMERS_CACuHE"] = "/workspace/cache/"
-# %%
-from neel.imports import *
-from neel_plotly import *
 
-# %%
-SEED = 42
-torch.set_grad_enabled(False)
-# %%
-test_model = HookedTransformer.from_pretrained("solu-1l")
-# %%
-model: HookedTransformer = HookedTransformer.from_pretrained("gpt-j", device="cpu")
-model: HookedTransformer = model.to(torch.bfloat16).to("cuda")
-# %%
-n_layers = model.cfg.n_layers
-d_model = model.cfg.d_model
-n_heads = model.cfg.n_heads
-d_head = model.cfg.d_head
-d_mlp = model.cfg.d_mlp
-d_vocab = model.cfg.d_vocab
-
-# %%
-print(model.to_str_tokens("23481762358723658732568235"))
-print(model.to_str_tokens("123+456=579"))
-print(model.to_str_tokens("123+456=579\n913+72=985\n218+276=494"))
-
-utils.test_prompt("123+456=579\n913+72=985\n218+276=", "494", model, prepend_space_to_answer=False)
 # %%
 num_tokens_per_digit = [len(model.to_str_tokens(str(i), prepend_bos=False)) for i in range(1000)]
 line(num_tokens_per_digit, title="Number of tokens per digit")
